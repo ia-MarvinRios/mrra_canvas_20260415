@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.ceviche-one-regular{
+    font-family: "Ceviche One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bienvenida{
+    text-align: center;
+}
+
+#lienzo-uno{
+    border: 2px solid lime;
+}
+#lienzo-dos{
+    border: 2px solid #FF3131;
+}
+#lienzo-tres{
+    border: 2px solid #1F51FF;
+}
+#lienzo-cuatro{
+    border: 2px solid #4DEEEA;
+}
+#lienzo-cinco{
+    border: 2px solid #FFE700;
+}
+#lienzo-seis{
+    border: 2px solid #F000FF;
+}
