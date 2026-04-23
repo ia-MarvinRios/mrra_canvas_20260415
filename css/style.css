@@ -14,6 +14,10 @@ body{
     font-style: normal;
 }
 
+.hidden{
+    display: none;
+}
+
 .bienvenida{
     text-align: center;
 }
@@ -23,6 +27,9 @@ body{
 }
 #lienzo-dos{
     border: 2px solid #FF3131;
+}
+#lienzo_dos-hidden{
+    border: 2px solid #ffa239;
 }
 #lienzo-tres{
     border: 2px solid #1F51FF;

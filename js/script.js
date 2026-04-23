@@ -48,8 +48,31 @@ if (canvas_cuatro.getContext){
 
 if (canvas_cinco.getContext){
     console.log("Si se soporta el contexto 5");
+
+    var ctx_5 =canvas_cinco.getContext("2d");
+    ctx_5.beginPath();
+    ctx_5.setLineDash([5,15]);
+    ctx_5.moveTo(0,40);
+    ctx_5.lineTo(150,40);
+    ctx_5.strokeStyle ='#FFFFFF';
+    ctx_5.stroke();
+
+    ctx_5.beginPath();
+    ctx_5.setLineDash([]);
+    ctx_5.moveTo(0,120);
+    ctx_5.lineTo(150,120);
+    ctx_5.strokeStyle ='#FFFFFF';
+    ctx_5.stroke();
 }
 
 if (canvas_seis.getContext){
     console.log("Si se soporta el contexto 6");
+
+    var ctx_6 =canvas_seis.getContext("2d");
+    ctx_6.fillStyle = 'rgb(200,200,200)';
+    ctx_6.beginPath();
+    ctx_6.moveTo(75,50);
+    ctx_6.lineTo(100,75);
+    ctx_6.lineTo(100,25);
+    ctx_6.fill();
 }
